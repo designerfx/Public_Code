@@ -1,3 +1,4 @@
+--Query to filter NCM unlicensed nodes based on vendor criteria
 SELECT CN.OrionNode.Vendor
 , CN.OrionNode.Caption --node name from OrionNode table
 --commented  , CN.OrionNode.CustomProperties.Region
