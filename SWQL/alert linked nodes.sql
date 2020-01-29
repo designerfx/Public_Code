@@ -7,3 +7,6 @@ SELECT TriggeredDateTime
 --point above to YOUR SERVER NAME OR IP
 FROM Orion.AlertActive OAA 
 WHERE TriggeredMessage LIKE 'High CPU Utilization with Top 10 Processes' --ALERT DESCRIPTION
+
+--so this custom query will let you list nodes and an applicable filtered alert. This way you can get node status + node alert status
+--all in one go
